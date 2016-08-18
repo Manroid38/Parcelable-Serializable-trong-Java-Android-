@@ -109,3 +109,6 @@ MyParcelable obj = (MyParcelable) b. getParcelable("ParcelKey");
 * Hai giao diện đều có ưu và nhược điểm riêng, phụ thuộc vào bài toán được yêu cầu chúng ta sẽ sử dụng chúng 1 cách hợp lý.
 
 * Giải pháp của tôi kết hợp Parcelable và Serializable độc đáo với nhau để bạn có được tốc độ của Parcelable khi truyền dữ liệu giữa các activity và sự tiện lợi của Serializable khi lưu vào đĩa (kèm một vài tối ưu để làm Serializable nhanh hơn) hoặc khi truyền dữ liệu thông qua các các giao thức mạng.
+
+[trang tham khảo](https://viblo.asia/hungtdo/posts/KE7bGonKM5e2) 
+
